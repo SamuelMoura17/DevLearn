@@ -52,7 +52,7 @@ ul{
 }
 
 li{
-    width: 5vw;
+    width: clamp(50px, 8vw, 150px);
 
     list-style: none;
 
@@ -63,7 +63,7 @@ li{
 
     padding: 7px;
 
-    font-size: 1.3vw;
+    font-size: clamp(14px, 1.5vw, 2.5vw);
     font-family: "Inter", sans-serif;
     
     text-align: center;
@@ -82,13 +82,13 @@ li:hover{
 
     padding: 10px;
 
-    width: 5.5vw;
+    width: clamp(55px, 8.5vw, 160px);
 
     color: white;
 
     background-color: #1e2fa0;
 
-    font-size: 1.4vw;
+    font-size: clamp(16px, 1.7vw, 2.7vw);
 
     box-shadow:
     0 2px 6px rgba(255, 255, 255, 0.15),
@@ -104,7 +104,7 @@ h1#header{
 
     height: 100vh;
 
-    font-size: 6vw;
+    font-size: 75px;
 
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ p#head{
 
     display: flex;
 
-    font-size: 2vw;
+    font-size: clamp(2vw, 2.5vw, 5vw);
     
     color: white;
 
@@ -124,8 +124,8 @@ p#head{
 
     position: absolute;
 
-    top: 67%;
-    right: 35%;
+    top: 66%;
+    right: 31.5%;
 
 
     text-shadow:  0px 1px 2px rgba(0,0,0,0.8);;
@@ -137,7 +137,7 @@ main{
 
 h1#body{
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
     text-align: center;
 
@@ -204,7 +204,7 @@ td{
 
     font-family: "Inter", sans-serif;  
     
-    font-size: 1.8vw;
+    font-size: clamp(13px, 1.8vw, 3vw);
 }
 
 th{ 
@@ -213,7 +213,7 @@ th{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
 
-    font-size: 2vw;
+    font-size: clamp(15px, 2vw, 4vw);
 
     border: 1px solid black;
 }
@@ -267,7 +267,7 @@ h2{
 
     text-align: center;
 
-    font-size: 3.0vw;
+    font-size: clamp(20px, 3vw, 5vw);
 
     color: black;
 
