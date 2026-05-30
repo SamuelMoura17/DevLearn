@@ -300,3 +300,37 @@ iframe{
     padding: 2vw 4vw 2vw 4vw;
 }
 
+#footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(5, 34, 59);
+    font-family: "Inter", sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+#footer-nome {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#footer-frase {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+#footer-copy {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
