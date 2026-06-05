@@ -356,6 +356,20 @@ div#footer-redes {
 
 }
 
+footer#footer a {
+
+    color: rgb(5, 34, 59);
+
+}
+
+footer#footer a:hover {
+
+    color: #1a56b0;
+
+    transition: 0.3s;
+
+}
+
 div#footer-redes a {
 
     color: rgb(5, 34, 59);
